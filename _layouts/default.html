@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+  <!-- Bulma -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css" integrity="sha512-6mc0R607di/biCutMUtU9K7NtNewiGQzrvWX4bWTeqmljZdJrwYvKJtnhgR+Ryvj+NRJ8+NnnCM/biGqMe/iRA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Assets -->
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/script.js"></script>
+  
+  {% seo %}
+</head>
+<body class="has-navbar-fixed-top">
+  <header>
+    <nav class="navbar is-dark is-fixed-top" aria-label="main navigation">
+      <div class="container is-max-desktop">
+        <div class="navbar-brand" id="navbar-name">
+          <a class="navbar-item" href="/">
+            <span class="first-name">Provati</span>
+            &nbsp;
+            <span class="last-name">Sutradhar</span>
+          </a>
+          
+          <a role="button" id="navBurger" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="/#about">About</a>
+            <a class="navbar-item" href="/#education">Education</a>
+            <a class="navbar-item" href="/#experience">Experience</a>
+            <a class="navbar-item" href="/#skills">Skills</a>
+            <a class="navbar-item" href="/#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="container is-max-desktop">
+      <div class="columns">
+        <div class="column pb-0">
+          Hosted on GitHub Pages.
+        </div>
+        <div class="column is-narrow">
+          <a class="icon" href="https://www.linkedin.com/in/provati-sutradhar-066326244/" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a class="icon" href="https://github.com/provati24" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a class="icon" href="mailto:sd.provati@gmail.com" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

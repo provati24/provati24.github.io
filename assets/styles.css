@@ -1,0 +1,40 @@
+:root {
+  --grey-lighter: hsl(0, 0%, 86%);
+  --dark: hsl(0, 0%, 21%);
+}
+
+main {
+  min-height: calc(100vh - 6.8rem);
+}
+
+#navbar-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#navbar-name .navbar-item {
+  align-items: baseline;
+}
+
+#navbar-name .first-name {
+  font-size: 1.3em;
+}
+
+#navbar-name .last-name {
+  color: var(--grey-lighter);
+}
+
+.is-256x256 {
+  width: 256px;
+  height: 256px;
+}
+
+footer {
+  background-color: var(--dark) !important;
+  color: var(--grey-lighter) !important;
+  padding: 1rem !important;
+}
+
+footer a {
+  color: var(--grey-lighter) !important;
+}
